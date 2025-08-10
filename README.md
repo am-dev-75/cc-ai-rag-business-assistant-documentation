@@ -12,11 +12,13 @@ This chapter lists some test results used to compare different configurations in
 
 The benchmark question is easy at first sight, but it a little bit subtle, instead. AURA SoM of one of the products described in the website. Specifically, it is a so-called "system-on-module" (SoM), i.e. an electronic board conceived to build industrial platforms. Its power consumption measurements are detailed in this page [https://wiki.dave.eu/index.php/AURA_SOM/AURA_Hardware/Electrical_Thermal_and_Mechanical_Features/Operational_characteristics](https://wiki.dave.eu/index.php/AURA_SOM/AURA_Hardware/Electrical_Thermal_and_Mechanical_Features/Operational_characteristics). As stated in this page, it is not very useful to provide a theoretical maximum power consuption, even though it would be possible calculate it. Instead, several real use cases are reported, including reasonable worst case scenarios. Take into account, however, that power measurements are either tabulated or visualized in a chart. A such, the ideal process to determine the answer should look like this:
 
-* Extract the maximum power consumptions (P1) from the tables
-* Visually, extract the maximum power consumptions (P2) from the charts
-* Answer max(P1, P2) and stress the fact that
-  * This is not a theoretical maximum consumption
-  * Even greater consumption could be experiencd in real-word configurations.
+1. Extract the maximum power consumptions (P1) from the tables
+2. Visually, extract the maximum power consumptions (P2) from the charts
+3. Answer max(P1, P2) and stress the fact that
+   * This is not a theoretical maximum consumption
+   * Even greater consumption could be experiencd in real-word configurations.
+
+To perform step #2, of course it is necessary to work with a multimodal embedding model capable of handling images as well. Please note that not all the embedders have been testing are multimodal.
 
 ### Results
 
