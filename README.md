@@ -27,7 +27,7 @@ To perform step #2, of course it is necessary to work with a multimodal embeddin
 | ------------------------ | --------------------- | --------------------------- | ---------------- | ---------------------------------------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 0<br />(golden answer) | n/a<br />(DAVE Bot) | n/a                       | n/a            | n/a                                    | n/a                       | The maximum power consumption of the AURA SOM is up to 2W. Let us know how to contact you!                                                                                            |
 | 1                      | 1.9.2               | web-scraper-crawler-00    | Llama3.2:3b    | BAAI/bge-base-en<br />512<br />passage | 8643                      | *grin* Ahah, my curious friend! According to the text, the maximum power consumption of the AURA SOM (System-on-Module) is 3.68 W. *disappears and reappears with a mischievous grin* |
-|                        |                     |                           |                |                                        |                           |                                                                                                                                                                                       |
+| 2                      | 1.9.2               | web-scraper-crawler-00    | gpt-oss:120b   | BAAI/bge-base-en<br />512<br />passage | 8643                      |                                                                                                                                                                                       |
 
 (1)
 
@@ -47,3 +47,7 @@ The answer is a clear example of erroneous "reasoning". By exploring the documen
 * [https://wiki.dave.eu/index.php/Thermal_tests_and_measurements_(SBCX)](https://wiki.dave.eu/index.php/Thermal_tests_and_measurements_(SBCX)https:/)
 
 Although the first link is correct to be considered the most relevant, CC got confused and used a value (3.8W) retrieved from the second link, which has nothing to do with the queried product.
+
+##### Testbed setup #2
+
+TBD
